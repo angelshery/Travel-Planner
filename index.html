@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Travel Planner</h1>
+    <div class ="container">
+        <p>Search for a country to start planning your trip.</p>
+        <input type="text" id="countryInput" placeholder="Enter a country...">
+        <button id ="searchButton">Search</button>
+    </div>
+
+    <!--displaying the country information-->
+    <p id="message"></p>
+    <div id="countryCard" class="hidden">
+        <img id="flag" src="">
+        <h2 id="countryName">Country:</h2>
+        <p>Capital: <span id="capital"></span></p>
+        <p>Population: <span id="population"></span></p>
+        <p>Region: <span id="region"></span></p>
+        <p>Currency: <span id="currency"></span></p>
+        <p>Language: <span id="language"></span></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
